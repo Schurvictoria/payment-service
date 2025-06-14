@@ -1,0 +1,11 @@
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\bin\Debug\net9.0\FinanceTracker.Domain.deps.json
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\bin\Debug\net9.0\FinanceTracker.Domain.dll
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\bin\Debug\net9.0\FinanceTracker.Domain.pdb
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\obj\Debug\net9.0\FinanceTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\obj\Debug\net9.0\FinanceTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\obj\Debug\net9.0\FinanceTracker.Domain.AssemblyInfo.cs
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\obj\Debug\net9.0\FinanceTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\obj\Debug\net9.0\FinanceTracker.Domain.dll
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\obj\Debug\net9.0\refint\FinanceTracker.Domain.dll
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\obj\Debug\net9.0\FinanceTracker.Domain.pdb
+C:\Users\schur\OneDrive\Desktop\Control work 1\FinanceTracker.Domain\obj\Debug\net9.0\ref\FinanceTracker.Domain.dll

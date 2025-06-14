@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.97" branch-rate="1" version="1.9" timestamp="1749916424" lines-covered="97" lines-valid="100" branches-covered="6" branches-valid="6">
+  <sources>
+    <source>C:\Users\schur\OneDrive\Desktop\Control work 1\</source>
+  </sources>
+  <packages>
+    <package name="FinanceTracker.Domain" line-rate="1" branch-rate="1" complexity="22">
+      <classes>
+        <class name="FinanceTracker.Domain.BankAccount" filename="FinanceTracker.Domain\Models.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Balance" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="15" hits="6" branch="False" />
+                <line number="16" hits="6" branch="False" />
+                <line number="17" hits="6" branch="False" />
+                <line number="18" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="7" branch="False" />
+            <line number="10" hits="9" branch="False" />
+            <line number="11" hits="8" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="15" hits="6" branch="False" />
+            <line number="16" hits="6" branch="False" />
+            <line number="17" hits="6" branch="False" />
+            <line number="18" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Domain.Category" filename="FinanceTracker.Domain\Models.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Type" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(FinanceTracker.Domain.OperationType,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="4" branch="False" />
+                <line number="28" hits="4" branch="False" />
+                <line number="29" hits="4" branch="False" />
+                <line number="30" hits="4" branch="False" />
+                <line number="31" hits="4" branch="False" />
+                <line number="32" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="7" branch="False" />
+            <line number="24" hits="6" branch="False" />
+            <line number="25" hits="6" branch="False" />
+            <line number="27" hits="4" branch="False" />
+            <line number="28" hits="4" branch="False" />
+            <line number="29" hits="4" branch="False" />
+            <line number="30" hits="4" branch="False" />
+            <line number="31" hits="4" branch="False" />
+            <line number="32" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Domain.Operation" filename="FinanceTracker.Domain\Models.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Type" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_BankAccountId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Amount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Date" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CategoryId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(FinanceTracker.Domain.OperationType,System.Guid,System.Decimal,System.DateTime,System.Guid,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="4" branch="False" />
+                <line number="46" hits="4" branch="False" />
+                <line number="47" hits="4" branch="False" />
+                <line number="48" hits="4" branch="False" />
+                <line number="49" hits="4" branch="False" />
+                <line number="50" hits="4" branch="False" />
+                <line number="51" hits="4" branch="False" />
+                <line number="52" hits="4" branch="False" />
+                <line number="53" hits="4" branch="False" />
+                <line number="54" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="4" branch="False" />
+            <line number="38" hits="6" branch="False" />
+            <line number="39" hits="7" branch="False" />
+            <line number="40" hits="7" branch="False" />
+            <line number="41" hits="5" branch="False" />
+            <line number="42" hits="7" branch="False" />
+            <line number="43" hits="7" branch="False" />
+            <line number="45" hits="4" branch="False" />
+            <line number="46" hits="4" branch="False" />
+            <line number="47" hits="4" branch="False" />
+            <line number="48" hits="4" branch="False" />
+            <line number="49" hits="4" branch="False" />
+            <line number="50" hits="4" branch="False" />
+            <line number="51" hits="4" branch="False" />
+            <line number="52" hits="4" branch="False" />
+            <line number="53" hits="4" branch="False" />
+            <line number="54" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Domain.DomainFactory" filename="FinanceTracker.Domain\Models.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="CreateBankAccount" signature="(System.String,System.Decimal)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="61" hits="5" branch="False" />
+                <line number="62" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="4" branch="False" />
+                <line number="65" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="CreateCategory" signature="(FinanceTracker.Domain.OperationType,System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="68" hits="3" branch="False" />
+                <line number="69" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="72" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="CreateOperation" signature="(FinanceTracker.Domain.OperationType,System.Guid,System.Decimal,System.DateTime,System.Guid,System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="75" hits="3" branch="False" />
+                <line number="76" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="77" hits="1" branch="False" />
+                <line number="78" hits="2" branch="False" />
+                <line number="79" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="61" hits="5" branch="False" />
+            <line number="62" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="4" branch="False" />
+            <line number="65" hits="4" branch="False" />
+            <line number="68" hits="3" branch="False" />
+            <line number="69" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="72" hits="2" branch="False" />
+            <line number="75" hits="3" branch="False" />
+            <line number="76" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="77" hits="1" branch="False" />
+            <line number="78" hits="2" branch="False" />
+            <line number="79" hits="2" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="FinanceTracker.Infrastructure" line-rate="0.94" branch-rate="1" complexity="24">
+      <classes>
+        <class name="FinanceTracker.Infrastructure.BankAccountFacade" filename="FinanceTracker.Infrastructure\Facades.cs" line-rate="0.8887999999999999" branch-rate="1" complexity="5">
+          <methods>
+            <method name="Create" signature="(System.String,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="4" branch="False" />
+                <line number="14" hits="4" branch="False" />
+                <line number="15" hits="4" branch="False" />
+                <line number="16" hits="4" branch="False" />
+                <line number="17" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="Delete" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetAll" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="GetById" signature="(System.Guid)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="4" branch="False" />
+            <line number="14" hits="4" branch="False" />
+            <line number="15" hits="4" branch="False" />
+            <line number="16" hits="4" branch="False" />
+            <line number="17" hits="4" branch="False" />
+            <line number="19" hits="2" branch="False" />
+            <line number="20" hits="6" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="10" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Infrastructure.CategoryFacade" filename="FinanceTracker.Infrastructure\Facades.cs" line-rate="0.8887999999999999" branch-rate="1" complexity="5">
+          <methods>
+            <method name="Create" signature="(FinanceTracker.Domain.OperationType,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="2" branch="False" />
+                <line number="33" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Delete" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetAll" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="GetById" signature="(System.Guid)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="33" hits="2" branch="False" />
+            <line number="35" hits="2" branch="False" />
+            <line number="36" hits="3" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="26" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Infrastructure.OperationFacade" filename="FinanceTracker.Infrastructure\Facades.cs" line-rate="0.8887999999999999" branch-rate="1" complexity="5">
+          <methods>
+            <method name="Create" signature="(FinanceTracker.Domain.OperationType,System.Guid,System.Decimal,System.DateTime,System.Guid,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="2" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="2" branch="False" />
+                <line number="49" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Delete" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetAll" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="GetById" signature="(System.Guid)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="45" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="2" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="51" hits="2" branch="False" />
+            <line number="52" hits="3" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="42" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Infrastructure.CreateAccountCommand" filename="FinanceTracker.Infrastructure\Patterns.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(FinanceTracker.Infrastructure.BankAccountFacade,System.String,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="2" branch="False" />
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="24" hits="2" branch="False" />
+                <line number="25" hits="2" branch="False" />
+                <line number="26" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="2" branch="False" />
+            <line number="21" hits="2" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Infrastructure.TimingCommandDecorator" filename="FinanceTracker.Infrastructure\Patterns.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(FinanceTracker.Infrastructure.ICommand)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="35" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Infrastructure.DataImporter" filename="FinanceTracker.Infrastructure\Patterns.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Import" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="FinanceTracker.Infrastructure.CsvExportVisitor" filename="FinanceTracker.Infrastructure\Patterns.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Visit" signature="(FinanceTracker.Domain.BankAccount)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="71" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Visit" signature="(FinanceTracker.Domain.Category)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Visit" signature="(FinanceTracker.Domain.Operation)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="73" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.IO.TextWriter)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="70" hits="2" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
